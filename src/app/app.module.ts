@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NumberToWeatherPipe } from './number-to-weather.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberToWeatherPipe
   ],
   imports: [
     BrowserModule
